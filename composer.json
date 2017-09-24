@@ -1,0 +1,22 @@
+{
+  "name": "rumur/plugin",
+  "type": "wordpress-plugin",
+  "description": "WP Plugin Boilerplate.",
+  "keywords": ["wordpress", "OOP"],
+  "authors": [
+    {
+      "name": "Rumur",
+      "email": "ruslan.murarov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "pimple/pimple": "^3.0",
+    "monolog/monolog": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPApp\\": "resources/"
+    }
+  }
+}
